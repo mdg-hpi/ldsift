@@ -3,6 +3,8 @@
 #include "string.h"
 #include "math.h"
 
+#include <stdio.h>
+
 void mexFunction(
         int nlhs,
         mxArray *plhs[],
