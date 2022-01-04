@@ -1,6 +1,7 @@
 #include <mex.h>
 #include <string.h>
 #include <math.h>
+#include <stdio.h>
 
 #define MAX(x,y) ((x) > (y) ? (x) : (y))
 #define MIN(x,y) ((x) < (y) ? (x) : (y))
