@@ -329,7 +329,7 @@ void mexFunction( int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[] ) {
     double *Iout;
     
     // Inputs
-    double *Iin;  const mwSize *Iin_dimsc;  int Iin_dims[3];  int Iin_ndims=0;
+    double *Iin;  const mwSize *Iin_dimsc;  mwSize Iin_dims[3];  int Iin_ndims=0;
    
     RenderImage *I;
     
